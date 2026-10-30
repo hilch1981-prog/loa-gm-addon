@@ -1,0 +1,22 @@
+{
+  "repo": "hilch1981-prog/loa-gm-addon",
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "client": "WoW 5.4.8 (18414)",
+  "interface": 50400,
+  "lua": "5.1",
+  "server": "Legends of Azeroth Pandaria + native Playerbots (WER MOP development build)",
+  "folder": "GMminibar-LoA",
+  "asset": "GMminibar_LoA_MoP_5.4.8_v1.0.0.zip",
+  "publishedDate": "2026-10-30",
+  "prerelease": false,
+  "testScope": "Actual Korean client city rendering, addon/menu opening and LoA label only. Commands, secure actions, catalogs and namespaces have mocked coverage; full gameplay, all landings, other languages and multiplayer remain unverified.",
+  "gameplayTestedBuild": {
+    "version": "1.3.1-mop548",
+    "provenance": "docs/development-source.json",
+    "note": "Publication changes two version literals and adds documentation only; not a fresh full gameplay test."
+  },
+  "assetSha256": "2ae236ab3084fb6e240535a929157cdf8e9e536dca1de3fc798fbc496a3dda15",
+  "assetBytes": 1889837,
+  "addonFiles": 30
+}

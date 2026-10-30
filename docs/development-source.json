@@ -1,0 +1,46 @@
+{
+  "developmentVersion": "1.3.1-mop548",
+  "publicationVersion": "1.0.0",
+  "folder": "GMminibar-LoA",
+  "codeChanges": "Two version literals and corresponding text line endings only; function bodies,catalogs and SavedVariables name preserved.",
+  "originalFiles": {
+    "Commands.lua": "5af23a77818195548989fe02b8126f3e36d83407e05b401d4a1fbc6ffdb72e82",
+    "CommandSanity.lua": "5ea787502fa3163a51d771c49f4fe0e185833fffdc29cee2ab69698b24b7681f",
+    "Core.lua": "4284e63d691c878f7c844397113625f5fc9774cac68e644074cfbd9538a2fa04",
+    "DataBrowser.lua": "ed762696146ba670bf926d1aabd38dcda833e2a236ba34e4f7d91be4cdb4ad61",
+    "DataBrowserUI.lua": "495a1777c6c5a614005cf9eec4c18bd60c58bf463c6c3a1bf50989469b6a95aa",
+    "GMminibar-LoA.toc": "4d6b5aeb647d7e9d0c650364530b799249e20973acfb7873014f5c0fad359caf",
+    "Locales.lua": "5d1bf61511224662de3cfc7531ac2354bdb8259f660a850d0d04662f45df856b",
+    "MinimapButton.lua": "bbd9a51aedb18a3dcfb825cb63e473d0c04b85c7f6fc70b55c1a6361f0d24c43",
+    "UI.lua": "617d3248ee8e92f9aa74077909a54e6b9f4e287a3e51ddbedad26964117b0300",
+    "WERCompat.lua": "8781f41a78ea241ce06719699be08ed9089b0d39174355e634ee61fec69698e3",
+    "WERMiniBar.lua": "9e2a4f5a50784186bf0f1d997a2fa217ab8585d02a42a71ac224f826dbd39fcf",
+    "Data/TeleportMeta.lua": "75e3c665e57508a346b3f94b1ca71d122cc4d1a7b9eecc352485b39d4f39b95e",
+    "Generated/Creatures.lua": "c92515dd7e0fba7ce6fb0cef6075d15dad89c2d2c5ea8abe21e25fbfafa16764",
+    "Generated/Items.lua": "9606bc068dd487da1398fd8618c6eb523eb8c65860ee82b420c67c1d227c22ed",
+    "Generated/Quests.lua": "a9abe44525841803f2c54a995558d6808a39e585eec01404eea795396038d849",
+    "Generated/SourceInfo.lua": "f5795260a4d493467f3e07580d7ab255c1aeaea48c14682f56e690cd085e89eb",
+    "Generated/Teleports.lua": "c3d21ff7d9b440cb81590f04f5b695810fc30893d3952dee2b3ec9b5889c2471",
+    "Modules/Bank.lua": "effc0467d1fd7547e3db81aef29d34d49b3e8d3f74ef1348ecf5287e93e1c0a9",
+    "Modules/Integrations.lua": "1773a154163ca9c5bf1edd4882a04ddc46ba73be1dd6f7abf0e6513bf84efc3f",
+    "Modules/ItemBrowser.lua": "657bf4d551a3a023e1cacf14c02e27b8beca773ad0ffed8b834d511e670514b1",
+    "Modules/PlayerBrowser.lua": "b6bb5218ec92b190a82f0db5a2e04cd234fbc503a083e3414aa878bbb10c34ed",
+    "Modules/ProfessionInfo.lua": "eb8a3a2b744524c651ee1631a3eabade97c6da57090f1371226d9818d2c82443",
+    "Modules/QuestHelper.lua": "73759f0a026fc4f2366a728025a28d819b215f0b6f01a16fe64d0a44ee428fce",
+    "Modules/Revive.lua": "8fa3e1801231de6ac05c4775d0fa0ced3d2b74fe38d136f8d0d29f2cf95318a7",
+    "Modules/SpellBrowser.lua": "fe3a4dd3feabdaf95b42a994f18599189d229cbb28432cc00fffe1ec9ac94311"
+  },
+  "versionOnlyFiles": [
+    "Core.lua",
+    "GMminibar-LoA.toc"
+  ],
+  "client": 18414,
+  "interface": 50400,
+  "sourceSnapshotNote": "Local LoA ZIP source; no verified full baseline commit. Do not infer compatibility with all public LoA revisions.",
+  "generatedDataDate": "2026-10-28",
+  "gameObservationDate": "2026-10-30",
+  "normalizedDevelopmentSha256": {
+    "Core.lua": "4284e63d691c878f7c844397113625f5fc9774cac68e644074cfbd9538a2fa04",
+    "GMminibar-LoA.toc": "4d6b5aeb647d7e9d0c650364530b799249e20973acfb7873014f5c0fad359caf"
+  }
+}

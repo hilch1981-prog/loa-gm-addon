@@ -1,0 +1,44 @@
+## Interface: 50400
+## Title: GM MINI BAR[Pandaria-LoA]
+## Title-koKR: GM MINI BAR[판다리아-LoA]
+## Title-zhCN: GM MINI BAR[Pandaria-LoA]
+## Title-zhTW: GM MINI BAR[Pandaria-LoA]
+## Title-ruRU: GM MINI BAR[Pandaria-LoA]
+## Notes: GM MINI BAR for WER REPACK MOP / LoA 5.4.8 (18414)
+## Notes-koKR: GM MINI BAR 판다리아-LoA / LoA 5.4.8 명령과 현재 DB 검색
+## Author: 취미연구가 (Hobbyist)
+## Version: 1.0.0
+## X-Client: WoW 5.4.8 (18414)
+## X-Core: Legends-of-Azeroth-Pandaria-5.4.8 + Playerbots
+## X-WotLK-Baseline: AzerothAdmin v3.5.0-335a
+## X-Locale-Packs: enUS, koKR, zhCN, zhTW, ruRU
+## X-Data-Source: WER REPACK MOP running world DB, 2026-10-28
+## SavedVariables: GMMPandariaDB
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+Locales.lua
+Commands.lua
+CommandSanity.lua
+Core.lua
+WERCompat.lua
+Generated\Items.lua
+Generated\Quests.lua
+Generated\Creatures.lua
+Generated\Teleports.lua
+Generated\SourceInfo.lua
+Data\TeleportMeta.lua
+DataBrowser.lua
+Modules\QuestHelper.lua
+Modules\ItemBrowser.lua
+Modules\SpellBrowser.lua
+Modules\PlayerBrowser.lua
+Modules\ProfessionInfo.lua
+Modules\Bank.lua
+Modules\Revive.lua
+Modules\Integrations.lua
+UI.lua
+DataBrowserUI.lua
+MinimapButton.lua
+
+WERMiniBar.lua

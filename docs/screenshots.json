@@ -1,0 +1,20 @@
+{
+  "gm-minibar-after.png": {
+    "sha256": "0acc50cc06ce9cc0b803bc3557b44a23abfa3e26035900103ce39af07d826083",
+    "bytes": 335954,
+    "client": "5.4.8(18414) koKR",
+    "developmentAddon": "1.3.1-mop548",
+    "date": "2026-10-30",
+    "actualClient": true,
+    "allCommandsVerified": false
+  },
+  "stormwind-after.png": {
+    "sha256": "a32c54c0426106a75971ca853f933cf6b6545ece7be59fb14ed9f45682a7c362",
+    "bytes": 335548,
+    "client": "5.4.8(18414) koKR",
+    "developmentAddon": "1.3.1-mop548",
+    "date": "2026-10-30",
+    "actualClient": true,
+    "allCommandsVerified": false
+  }
+}
