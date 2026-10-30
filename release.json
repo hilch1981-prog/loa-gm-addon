@@ -16,7 +16,8 @@
     "provenance": "docs/development-source.json",
     "note": "Publication changes two version literals and adds documentation only; not a fresh full gameplay test."
   },
-  "assetSha256": "2ae236ab3084fb6e240535a929157cdf8e9e536dca1de3fc798fbc496a3dda15",
-  "assetBytes": 1889837,
-  "addonFiles": 30
+  "addonFiles": 30,
+  "zipMethod": "ZIP_STORED for cross-platform byte reproducibility",
+  "assetSha256": "5b92715ec2ebbc7e7ace4c4273b5f42df1578d5ee77a21d63007dee7df2ba467",
+  "assetBytes": 7539213
 }

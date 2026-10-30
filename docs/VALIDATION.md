@@ -9,7 +9,7 @@ Target:WoW 5.4.8(18414),Interface 50400,Lua 5.1,LoA Pandaria. `scripts/validate.
 - Original development-file hashes and version-only normalized comparison.
 - Local Markdown links and absence of common private path/token/binary patterns.
 
-`scripts/package.py` packages exactly one `GMminibar-LoA` directory,checks ZIP CRC and every file's digest,and verifies the recorded release asset hash. ZIP timestamps/order/permissions are deterministic. No runtime,server/client executable,SQL dump or account configuration is packaged.
+`scripts/package.py` packages exactly one `GMminibar-LoA` directory,checks ZIP CRC and every file's digest,and verifies the recorded release asset hash. ZIP timestamps/order/permissions are deterministic. The archive uses standard ZIP_STORED entries to avoid zlib/zlib-ng platform differences;it remains a normal extractable ZIP. The initial compressed candidate was not released because Linux CI produced a different archive hash despite matching payloads. No runtime,server/client executable,SQL dump or account configuration is packaged.
 
 The actual Korean client's menu opening/closing and LoA label are historical screen observations from development1.3.1-mop548. They remain separate from mock results and public1.0.0 packaging. [Game record](../GMminibar-LoA/GAME_TEST.md) · [Screenshots](SCREENSHOTS.md).
 

@@ -13,11 +13,14 @@ def main():
         payload[name]=(ROOT/name).read_bytes()
         assert hashlib.sha256(payload[name]).hexdigest()==expected,name
     (ROOT/'dist').mkdir(exist_ok=True);output=ROOT/'dist'/release['asset']
-    with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
+    # ZIP_STORED keeps exact bytes across zlib and zlib-ng/Python platforms.
+    # The initial compressed candidate passed content checks but had a different
+    # archive hash on Linux. The public asset must be reproducible everywhere.
+    with zipfile.ZipFile(output,'w',zipfile.ZIP_STORED) as archive:
         for name,data in sorted(payload.items()):
-            info=zipfile.ZipInfo(name,(2026,10,30,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED
+            info=zipfile.ZipInfo(name,(2026,10,30,0,0,0));info.compress_type=zipfile.ZIP_STORED
             info.create_system=3;info.external_attr=0o100644<<16
-            archive.writestr(info,data,compresslevel=9)
+            archive.writestr(info,data)
     with zipfile.ZipFile(output) as archive:
         assert archive.testzip() is None and set(archive.namelist())==set(manifest)
         assert all(n.startswith('GMminibar-LoA/') for n in archive.namelist())
